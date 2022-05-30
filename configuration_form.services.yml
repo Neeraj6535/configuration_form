@@ -1,0 +1,4 @@
+services:
+  configuration_form.custom_service:
+    class: Drupal\configuration_form\CustomService
+    autowire: true

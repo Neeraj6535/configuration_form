@@ -1,0 +1,12 @@
+configuration_form.admin:
+  path: '/admin/config/admin-config-form'
+  defaults:
+    _title: 'Admin Custom Configurations'
+    _form: '\Drupal\configuration_form\Form\AdminForm'
+  
+  requirements:
+    _permission: 'access content'
+    _role: administrator
+
+  options:
+    _admin_route: TRUE

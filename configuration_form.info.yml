@@ -1,0 +1,5 @@
+name: Configuration form
+description: 'Configuration form for admin'
+type: module
+package: Custom Module
+core_version_requirement: ^8 || ^9

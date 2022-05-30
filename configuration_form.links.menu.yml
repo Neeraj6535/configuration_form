@@ -1,0 +1,6 @@
+configuration_form.custom_config_item:
+  title: Admin Custom Configurations
+  description: 'Set Configuration for time zones'
+  route_name: configuration_form.admin
+  parent: system.admin_config
+  weight: 10
